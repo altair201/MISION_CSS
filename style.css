@@ -504,23 +504,7 @@ a{
     padding: 20px 30px;
     
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{argin: 0;
-    padding: 0;
-    box-sizing: bord
-    mer-box;
-}
-:root{
-    --fucshia: hsl(333, 100%, 43%);
-        --fucshia2: hsla(333, 100%, 43%, 0.548);
-        --white:hsl(0, 0%, 100%);
-        --whitetransparent:hsla(0, 0%, 100%, 0.741);
-        --gray:hsl(0, 8%, 91%);
-        --blue:hsl(227, 65%, 16%);
-        --blackTransparent:hsla(0, 0%, 0%, 0.822);
-        --darkgray:hsl(0, 1%, 50%);
-        --darkgray2:hsl(0, 1%, 22%);
-}
+
 body{
     font-family: Raleway, sans-serif;
 }
