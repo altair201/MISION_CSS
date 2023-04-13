@@ -42,10 +42,10 @@ html {
 #web_img{
     margin-left: 10px;
     padding-left: -10%;
-    margin-top: 19px;
+    margin-top: 14px;
     color: #ffff ;
     font-family: 'Raleway', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 600;
 }
 .p_inicios{
@@ -56,10 +56,12 @@ html {
     margin-top: 13px;
     margin-left: 1250px;
     font-size: 20px;
+    font-weight: 700;
 }
 .hover_head:hover{
     color: var(--white);
     cursor: pointer;
+    transition: 0.5s ease;
 }
 a{
     text-decoration: none;
@@ -109,6 +111,7 @@ a{
     font-size: 20px;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
+    transition: 1s ease;
 }
 .btn_buton:hover{
     background-color: var(--white);
@@ -213,6 +216,7 @@ a{
     font-size: 20px;
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
+    transition: 1s ease;
 }
 .btn_tamñ:hover{
     cursor: pointer;
@@ -664,6 +668,7 @@ input::placeholder{
     background-color: var(--fucshia);
     margin-bottom:30px;
     cursor: pointer;
+    transition: 1s ease;
 }
 .contacto_formulario_btn:hover{
     background-color: var(--white);
