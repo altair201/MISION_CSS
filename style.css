@@ -302,6 +302,208 @@ a{
 }
 
 /* aqui termina section#2 */
+.servi{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.servi_todo{
+
+    height: 100%;
+    width: 70%;
+    display: grid;
+    grid-template-areas: "servi_title servi_title servi_title"
+    "servi_web servi_diseño servi_wpo "
+    "servi_seo servi_smo servi_host";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr;
+}
+.servi_title{
+    grid-area: servi_title;
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+}
+.servi_text{
+    border-top: 2px solid var(--fucshia);
+    border-bottom: 2px solid var(--fucshia); 
+    font-family: Raleway;
+    font-size: 1.5rem;
+    padding: 7px 0 7px 0;
+}
+.servi_web{
+    grid-area: servi_web;
+    display: grid;
+    place-items: center;
+}
+.servi_sud-edit{
+    width: 85%;
+    text-align: center;
+}
+.servi_diseño{
+    grid-area: servi_diseño;
+    display: grid;
+    place-items: center;
+}
+.servi_wpo{
+    grid-area: servi_wpo;
+    display: grid;
+    place-items: center;
+}
+.servi_seo{
+    grid-area:servi_seo;
+    display: grid;
+    place-items: center;
+}
+.servi_smo{
+    grid-area: servi_smo;
+    display: grid;
+    place-items: center;
+}
+.servi_host{
+    grid-area: servi_host;
+    display: grid;
+    place-items: center;
+}
+.texd{
+    font-style: italic;
+    font-family: Raleway;
+    font-weight: 400;
+}
+.title-d{
+    font-family: Raleway;
+    font-weight: 700;
+}
+.proyec{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.proyec_todo{
+    height: 100%;
+    width: 55%;
+    display: grid;
+    grid-template-areas: "servi_title servi_title servi_title"
+    "proyec_1 proyec_2 proyec_3 "
+    "proyec_4 proyec_5 proyec_6";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr;
+}
+.proyec_1{
+    grid-area:proyec_1;
+    position: relative;
+    overflow: hidden;
+}
+.proyec_1-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./asset/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.proyec_-overlay{
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: var(--fucshia2);
+    transition: .5s ease;
+}
+.proyec_todo-border{
+    height: 100%;
+    border: 2px solid var(--white);
+}
+.proyec_1:hover .proyec_-overlay{
+    top: 0;
+}
+.proyec_2{
+    grid-area:proyec_2;
+    position: relative;
+    overflow: hidden;
+}
+.proyec_2-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./asset/portfolio-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.proyec_2:hover .proyec_-overlay{
+    top: 0;
+}
+.proyec_3{
+    grid-area:proyec_3;
+    position: relative;
+    overflow: hidden;
+}
+.proyec_3-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./asset/portfolio-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.proyec_3:hover .proyec_-overlay{
+    top: 0;
+}
+.proyec_4{
+    grid-area:proyec_4;
+    position: relative;
+    overflow: hidden;
+}
+.proyec_4-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./asset/portfolio-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.proyec_4:hover .proyec_-overlay{
+    top: 0;
+}
+.proyec_5{
+    grid-area:proyec_5;
+    position: relative;
+    overflow: hidden;
+}
+.proyec_5-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./asset/portfolio-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.proyec_5:hover .proyec_-overlay{
+    top: 0;
+}
+.proyec_6{
+    grid-area:proyec_6;
+    position: relative;
+    overflow: hidden;
+}
+.proyec_6-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./asset/portfolio-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.proyec_6:hover .proyec_-overlay{
+    top: 0;
+}
+.proyec_text{
+    color: var(--white);
+    font-family: Raleway;
+    text-align: center;
+}
+.camb{
+    padding: 20px 30px;
+    
+}
 footer{
     background-color: var(--blue);
     color: var(--white);
