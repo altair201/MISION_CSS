@@ -43,6 +43,7 @@
     border-bottom: 2px solid var(--fucshia); 
     font-family: Raleway;
     font-size: 1.5rem;
+    padding: 7px 0 7px 0;
 }
 .servi_web{
     grid-area: servi_web;
@@ -115,7 +116,7 @@
     background-size: cover;
     background-position: center;
 }
-.proyec_1-overlay{
+.proyec_-overlay{
     position: absolute;
     top: -100%;
     right: 0;
@@ -125,11 +126,11 @@
     background-color: var(--fucshia2);
     transition: .5s ease;
 }
-.proyec_1-border{
+.proyec_todo-border{
     height: 100%;
     border: 2px solid var(--white);
 }
-.proyec_1:hover .proyec_1-overlay{
+.proyec_1:hover .proyec_-overlay{
     top: 0;
 }
 .proyec_2{
@@ -144,21 +145,7 @@
     background-size: cover;
     background-position: center;
 }
-.proyec_2-overlay{
-    position: absolute;
-    top: -100%;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: var(--fucshia2);
-    transition: .5s ease;
-}
-.proyec_2-border{
-    height: 100%;
-    border: 2px solid var(--white);
-}
-.proyec_2:hover .proyec_2-overlay{
+.proyec_2:hover .proyec_-overlay{
     top: 0;
 }
 .proyec_3{
@@ -173,21 +160,7 @@
     background-size: cover;
     background-position: center;
 }
-.proyec_3-overlay{
-    position: absolute;
-    top: -100%;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: var(--fucshia2);
-    transition: .5s ease;
-}
-.proyec_3-border{
-    height: 100%;
-    border: 2px solid var(--white);
-}
-.proyec_3:hover .proyec_3-overlay{
+.proyec_3:hover .proyec_-overlay{
     top: 0;
 }
 .proyec_4{
@@ -202,21 +175,7 @@
     background-size: cover;
     background-position: center;
 }
-.proyec_4-overlay{
-    position: absolute;
-    top: -100%;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: var(--fucshia2);
-    transition: .5s ease;
-}
-.proyec_4-border{
-    height: 100%;
-    border: 2px solid var(--white);
-}
-.proyec_4:hover .proyec_4-overlay{
+.proyec_4:hover .proyec_-overlay{
     top: 0;
 }
 .proyec_5{
@@ -231,21 +190,7 @@
     background-size: cover;
     background-position: center;
 }
-.proyec_5-overlay{
-    position: absolute;
-    top: -100%;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: var(--fucshia2);
-    transition: .5s ease;
-}
-.proyec_5-border{
-    height: 100%;
-    border: 2px solid var(--white);
-}
-.proyec_5:hover .proyec_5-overlay{
+.proyec_5:hover .proyec_-overlay{
     top: 0;
 }
 .proyec_6{
@@ -260,21 +205,7 @@
     background-size: cover;
     background-position: center;
 }
-.proyec_6-overlay{
-    position: absolute;
-    top: -100%;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: var(--fucshia2);
-    transition: .5s ease;
-}
-.proyec_6-border{
-    height: 100%;
-    border: 2px solid var(--white);
-}
-.proyec_6:hover .proyec_6-overlay{
+.proyec_6:hover .proyec_-overlay{
     top: 0;
 }
 .proyec_text{
